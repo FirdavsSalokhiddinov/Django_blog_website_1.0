@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/base.css/' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="first">
+                <h1><a href="{% url 'home' %}">Fred Blog</a></h1>
+            </div>
+
+            <div class="second">
+                {% if user.is_authenticated %}
+                    <div>
+                        <p>Welcome, {{user.username}}!</p>  
+                        <button><a href="{% url 'logout' %}">Log out</a></button>
+                    </div>
+                {% else %}
+                    <div>
+                        <p>You must log in for usiing website!</p>
+                        <button><a href="{% url 'login' %}">Log in</a></button>
+                        <button><a href="{% url 'signup' %}">Sign up</a></button>
+                    </div>
+                {% endif %}
+            </div>
+        </nav>
+    </header>
+    
+    <hr><br>
+    
+    <main>
+        {% if user.is_authenticated %}
+            {% block content %}
+            {% endblock content %}
+        {% else %}
+
+        {% endif %}
+    </main>
+
+</body>
+</html>
