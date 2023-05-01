@@ -1,0 +1,48 @@
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+}
+body{
+    margin: 0 1rem;
+    padding: 0;
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+
+button{
+    background-color: #333;
+    padding: 0.3rem 1rem;
+}
+
+h2 a{
+    color:cornflowerblues;
+}
+
+.first{
+    float: left;
+    width:80%;
+    margin-bottom: 1rem;
+    background: none;
+}
+.first h1{
+    
+}
+hr{
+    position: static;
+}
+.second{
+    float: left;
+    width: 20%;
+    margin-bottom: 3rem;
+}
+.second p{
+    display:inline-block;
+}
