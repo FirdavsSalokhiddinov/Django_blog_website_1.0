@@ -1,0 +1,33 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <text x="90" y="110" fill="#0F172A" font-family="Arial, sans-serif" font-size="44" font-weight="700">What Users Can Do</text>
+  <text x="90" y="155" fill="#475569" font-family="Arial, sans-serif" font-size="24">Core actions supported by this Django blog project</text>
+
+  <rect x="90" y="210" width="300" height="170" rx="24" fill="#DBEAFE"/>
+  <text x="120" y="270" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Browse Posts</text>
+  <text x="120" y="315" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="22">Open the homepage,</text>
+  <text x="120" y="345" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="22">see post previews,</text>
+  <text x="120" y="375" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="22">and visit detail pages.</text>
+
+  <rect x="450" y="210" width="300" height="170" rx="24" fill="#DCFCE7"/>
+  <text x="480" y="270" fill="#166534" font-family="Arial, sans-serif" font-size="30" font-weight="700">Create Content</text>
+  <text x="480" y="315" fill="#166534" font-family="Arial, sans-serif" font-size="22">Use the new post form</text>
+  <text x="480" y="345" fill="#166534" font-family="Arial, sans-serif" font-size="22">to add a title, body,</text>
+  <text x="480" y="375" fill="#166534" font-family="Arial, sans-serif" font-size="22">and author.</text>
+
+  <rect x="810" y="210" width="300" height="170" rx="24" fill="#FEE2E2"/>
+  <text x="840" y="270" fill="#991B1B" font-family="Arial, sans-serif" font-size="30" font-weight="700">Edit or Delete</text>
+  <text x="840" y="315" fill="#991B1B" font-family="Arial, sans-serif" font-size="22">Update an existing</text>
+  <text x="840" y="345" fill="#991B1B" font-family="Arial, sans-serif" font-size="22">post or remove it</text>
+  <text x="840" y="375" fill="#991B1B" font-family="Arial, sans-serif" font-size="22">from the site.</text>
+
+  <rect x="270" y="450" width="300" height="170" rx="24" fill="#F5D0FE"/>
+  <text x="300" y="510" fill="#86198F" font-family="Arial, sans-serif" font-size="30" font-weight="700">Sign Up</text>
+  <text x="300" y="555" fill="#86198F" font-family="Arial, sans-serif" font-size="22">Create an account with</text>
+  <text x="300" y="585" fill="#86198F" font-family="Arial, sans-serif" font-size="22">Django's auth form.</text>
+
+  <rect x="630" y="450" width="300" height="170" rx="24" fill="#FDE68A"/>
+  <text x="660" y="510" fill="#92400E" font-family="Arial, sans-serif" font-size="30" font-weight="700">Log In / Out</text>
+  <text x="660" y="555" fill="#92400E" font-family="Arial, sans-serif" font-size="22">Use the built-in auth</text>
+  <text x="660" y="585" fill="#92400E" font-family="Arial, sans-serif" font-size="22">views to start or end a session.</text>
+</svg>
